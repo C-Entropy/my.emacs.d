@@ -1,8 +1,8 @@
 (require 'cl)
 
 (when (>= emacs-major-version 24)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
-  )
+  (add-to-list 'package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+		      ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
 
 
 
@@ -59,5 +59,12 @@
 
 (require 'popwin)    ;;when require, wh(setq company-minimum-prefix-length 1)en not require
 (popwin-mode t)
+
+;; Setup load-path, autoloads and your lisp system
+;; Not needed if you install SLIME via MELPA
+(add-to-list 'load-path "~/gitc/slime")
+(require 'slime-autoloads)
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+
 
 (provide 'init-packages)
