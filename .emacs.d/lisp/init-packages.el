@@ -1,23 +1,38 @@
+;;  __        __             __   ___
+;; |__)  /\  /  ` |__/  /\  / _` |__
+;; |    /~~\ \__, |  \ /~~\ \__> |___
+;;                      __   ___        ___      ___
+;; |\/|  /\  |\ |  /\  / _` |__   |\/| |__  |\ |  |
+;; |  | /~~\ | \| /~~\ \__> |___  |  | |___ | \|  |
+(when (>= emacs-major-version 24)
+    (require 'package)
+    (package-initialize)
+    (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+			 ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
+
+;; cl - Common Lisp Extension
 (require 'cl)
 
-(when (>= emacs-major-version 24)
-  (add-to-list 'package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-		      ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
 
-
-
-;;add whatever packages you want here
 (defvar MorosithII/packages '(
-				 company
-				 hungry-delete
-				 swiper
-				 counsel
-				 smartparens
-				 js2-mode
-				 nodejs-repl
-				 exec-path-from-shell
-				 popwin
-				 )  "Default packages")
+			      ;; --- Auto-completion ---
+			      company
+			      ;; --- Better Editor ---
+			      smooth-scrolling
+			      hungry-delete
+			      swiper
+			      exec-path-from-shell
+			      counsel
+			      smartparens
+			      popwin
+			      nodejs-repl
+			      popwin
+			      ;; --- Major Mode ---
+			      js2-mode
+			      markdown-mode
+			      ;;theme
+			      solarized-theme
+			      )"Default packages")
 
 (setq package-selected-packages MorosithII/packages)
 
@@ -60,11 +75,14 @@
 (require 'popwin)    ;;when require, wh(setq company-minimum-prefix-length 1)en not require
 (popwin-mode t)
 
+
+
 ;; Setup load-path, autoloads and your lisp system
 ;; Not needed if you install SLIME via MELPA
-(add-to-list 'load-path "~/gitc/slime")
-(require 'slime-autoloads)
-(setq inferior-lisp-program "/usr/local/bin/sbcl")
+;;(add-to-list 'load-path "~/gitc/slime")
+;;(require 'slime-autoloads)
+;;(setq inferior-lisp-program "/usr/local/bin/sbcl")
+
 
 
 (provide 'init-packages)
