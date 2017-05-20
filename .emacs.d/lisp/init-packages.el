@@ -57,6 +57,8 @@
 
 ;;(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 (smartparens-global-mode t)
+(sp-local-pair '(emacs-lisp-mode lisp-interaction-mode) "'" nil :actions nil)
+
 
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
