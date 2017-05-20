@@ -1,60 +1,3 @@
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-g++ test.c -g -Wall -o test
-./test | cat
-gdb test
-./test
-./test
-./test 1111 > out
-cat out | more
-./test 111 > out
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
 g++ test.c -g -Wall -o test
 ./test
 g++ test.c -g -Wall -o test
@@ -125,4 +68,61 @@ g++ a.cpp -g -Wall -o a
 ./a
 g++ a.cpp -g -Wall -o a
 ./a
+./test
+g++ test.cpp -g -Wall -o test
+./test
+./test
+./test
+./test
+g++ test.cpp -g -Wall -o test
+./test
+./test
+g++ test.cpp -g -Wall -o test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+./test
+g++ test.cpp -g -Wall -o test -O3
+./test
+1600
+./test
+./test
+./test
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+.test
+./test
+./test
+./test
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g -Wall -o test -O3
+./test
+./test
+g++ test.cpp -g -Wall -o test -O3
+./test
+./test
+echo 334 | ./test
+g++ test.cpp -g -Wall -o test -O3
+./test
+./test
+echo 3 23 324 23  0 034 34 345 | ./test
+./test
+./test
+g++ test.cpp -g -Wall -o test -O3
+g++ test.cpp -g  -o test -O3
+./test
+g++ test.cpp -g  -o test 
 ./test

@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "smooth-scrolling" "smooth-scrolling.el" (22812
-;;;;;;  20778 572521 991000))
+;;;### (autoloads nil "smooth-scrolling" "smooth-scrolling.el" (22815
+;;;;;;  53481 317264 732000))
 ;;; Generated autoloads from smooth-scrolling.el
 
 (defvar smooth-scrolling-mode nil "\
