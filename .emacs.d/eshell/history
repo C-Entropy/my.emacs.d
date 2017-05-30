@@ -1,128 +1,128 @@
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-./test
-g++ test.c -g -Wall -o test
-g++ test.c -g -o test
-./test
-g++ test.c -g -o test -O1
-./test
-g++ test.c -g -o test -O2
-./test
-g++ test.c -g -o test -O3
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-g++ test.c -g -o test -O4
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-./test
-./test
-g++ test.c -g -o test -O4
-./test
-g++ test.c -g -o test -O4
-./test
-./test
-g++ test.c -g -o test -O4
-g++ test.c -g -o test -O4
-g++ test.c -g -o test -O4
-./test
-g++ a.cpp -g -Wall
-g++ a.cpp -g -Wall
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall
-./a.out
-g++ a.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
 ./a
-g++ a.cpp -g -Wall -o a
 ./a
-g++ a.cpp -g -Wall -o a
 ./a
-./test
-g++ test.cpp -g -Wall -o test
-./test
-./test
-./test
-./test
-g++ test.cpp -g -Wall -o test
-./test
-./test
-g++ test.cpp -g -Wall -o test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-./test
-g++ test.cpp -g -Wall -o test -O3
-./test
-1600
-./test
-./test
-./test
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-.test
-./test
-./test
-./test
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g -Wall -o test -O3
-./test
-./test
-g++ test.cpp -g -Wall -o test -O3
-./test
-./test
-echo 334 | ./test
-g++ test.cpp -g -Wall -o test -O3
-./test
-./test
-echo 3 23 324 23  0 034 34 345 | ./test
-./test
-./test
-g++ test.cpp -g -Wall -o test -O3
-g++ test.cpp -g  -o test -O3
-./test
-g++ test.cpp -g  -o test 
-./test
+./a
+./a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+./a
+gdb a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+less data
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ tool.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+.
+g++ test.cpp -g -Wall -o a
+./a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a
+./a
+./a
+./a
+g++ test.cpp -g -Wall -o a
+./a

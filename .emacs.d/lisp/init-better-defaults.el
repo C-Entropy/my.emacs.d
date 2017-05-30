@@ -14,10 +14,12 @@
 					    ("8ms" "Macrosoft")
 					    ;;for clang
 					    ("cic" "#include <cstdio>")
-					    ("cii" "#include <iostream>") 
+					    ("cii" "#include <iostream>")
+					    ("cit" "#include <ctime>")
 					    ("cimt" "#include <cmath>")
 					    ("cis" "#include <cstring>")
-					    ("cim" "int main(){")
+
+					    ("cim" "int main()")
 					    ))
 
 (setq make-backup-files nil)
