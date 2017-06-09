@@ -3,7 +3,7 @@
 
 
 (global-auto-revert-mode t)
-
+(setq auto-save-default nil) ;; turn off auto-save
 (global-linum-mode t)
 
 (abbrev-mode t)
@@ -15,10 +15,12 @@
 					    ;;for clang
 					    ("cic" "#include <cstdio>")
 					    ("cii" "#include <iostream>")
+					    ("cisp" "#include <")
 					    ("cit" "#include <ctime>")
 					    ("cimt" "#include <cmath>")
 					    ("cis" "#include <cstring>")
-
+					    ("cdfm" "#define MAXN")
+					    ("cdfi" "#define INFN")
 					    ("cim" "int main()")
 					    ))
 

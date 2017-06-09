@@ -32,6 +32,7 @@
 			      markdown-mode
 			      ;;theme
 			      solarized-theme
+			      nyan-mode
 			      )"Default packages")
 
 (setq package-selected-packages MorosithII/packages)
@@ -88,3 +89,6 @@
 
 
 (provide 'init-packages)
+
+;;nyan-mode
+(nyan-mode t);;启动nyan-mode
