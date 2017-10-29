@@ -40,6 +40,8 @@
 
 (setq package-selected-packages MorosithII/packages)
 
+
+
 (defun MorosithII/packages-installed-p ()
   (loop for pkg in MorosithII/packages
 	when (not (package-installed-p pkg)) do (return nil)
@@ -91,9 +93,13 @@
 ;;(setq slime-lisp-implementations
   ;;    '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
 
+(add-to-list 'load-path "~/.emacs.d/others/ecb/")
+(require 'xcscope)
+(require 'ecb)
 
 
-(provide 'init-packages)
 
 ;;nyan-mode
 (nyan-mode t);;启动nyan-mode
+
+(provide 'init-packages)
