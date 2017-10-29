@@ -19,6 +19,7 @@
 					    ("cit" "#include <ctime>")
 					    ("cimt" "#include <cmath>")
 					    ("cis" "#include <cstring>")
+					    ("cuns" "using namespace std;")
 					    ("cdfm" "#define MAXN")
 					    ("cdfi" "#define INFN")
 					    ("cim" "int main()")

@@ -1,0 +1,8 @@
+g++ poj2492.cpp -g -Wall
+g++ poj2492.cpp -g -Wall
+g++ poj2492.cpp -g -Wall
+./a.out 
+g++ poj2492.cpp -g -Wall
+./a.out 
+g++ poj2492.cpp -g -Wall
+./a.out 

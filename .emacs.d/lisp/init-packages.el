@@ -17,6 +17,7 @@
 (defvar MorosithII/packages '(
 			      ;; --- Auto-completion ---
 			      company
+			      auto-complete
 			      ;; --- Better Editor ---
 			      smooth-scrolling
 			      hungry-delete
@@ -33,6 +34,8 @@
 			      ;;theme
 			      solarized-theme
 			      nyan-mode
+			      ;;common lisp
+			      slime
 			      )"Default packages")
 
 (setq package-selected-packages MorosithII/packages)
@@ -72,7 +75,7 @@
        auto-mode-alist))
 
 (global-company-mode t)
-
+(ac-config-default)
 
 
 (require 'popwin)    ;;when require, wh(setq company-minimum-prefix-length 1)en not require
@@ -84,7 +87,9 @@
 ;; Not needed if you install SLIME via MELPA
 ;;(add-to-list 'load-path "~/gitc/slime")
 ;;(require 'slime-autoloads)
-;;(setq inferior-lisp-program "/usr/local/bin/sbcl")
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+;;(setq slime-lisp-implementations
+  ;;    '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
 
 
 
