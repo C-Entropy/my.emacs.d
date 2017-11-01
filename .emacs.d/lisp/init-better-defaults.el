@@ -22,7 +22,7 @@
 					    ("cuns" "using namespace std;")
 					    ("cdfm" "#define MAXN")
 					    ("cdfi" "#define INFN")
-					    ("cim" "int main()")
+					    ("cm" "int main(){")
 					    ))
 
 (setq make-backup-files nil)
