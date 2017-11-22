@@ -25,11 +25,11 @@
     ("cdfm" "#define MAXN" nil 0)
     ("cic" "#include <cstdio>" nil 0)
     ("cii" "#include <iostream>" nil 0)
-    ("cim" "int main()" nil 0)
     ("cimt" "#include <cmath>" nil 0)
     ("cis" "#include <cstring>" nil 0)
     ("cisp" "#include <" nil 0)
     ("cit" "#include <ctime>" nil 0)
+    ("cm" "int main(){" nil 0)
     ("cuns" "using namespace std;" nil 0)
    ))
 

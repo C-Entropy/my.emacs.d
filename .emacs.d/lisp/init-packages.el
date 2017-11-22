@@ -16,7 +16,6 @@
 
 (defvar MorosithII/packages '(
 			      ;; --- Auto-completion ---
-			      company
 			      auto-complete
 			      ;; --- Better Editor ---
 			      smooth-scrolling
@@ -31,6 +30,9 @@
 			      ;; --- Major Mode ---
 			      js2-mode
 			      markdown-mode
+			      ;;python
+			      elpy
+			      flycheck
 			      ;;theme
 			      solarized-theme
 			      nyan-mode
@@ -76,14 +78,19 @@
        '(("\\.js\\'" . js2-mode))
        auto-mode-alist))
 
-(global-company-mode t)
 (ac-config-default)
 
 
 (require 'popwin)    ;;when require, wh(setq company-minimum-prefix-length 1)en not require
 (popwin-mode t)
 
-
+;;python
+(elpy-enable)
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+;;(require 'py-autopep8)
+;;(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 ;; Setup load-path, autoloads and your lisp system
 ;; Not needed if you install SLIME via MELPA
@@ -93,9 +100,9 @@
 ;;(setq slime-lisp-implementations
   ;;    '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
 
-(add-to-list 'load-path "~/.emacs.d/others/ecb/")
-(require 'xcscope)
-(require 'ecb)
+;;(add-to-list 'load-path "~/.emacs.d/others/ecb/")
+;;(require 'xcscope)
+;;(require 'ecb)
 
 
 
