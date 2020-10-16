@@ -1,0 +1,7 @@
+(byte-recompile-directory "~/.emacs.d/init/")
+(require 'init-packages)
+(require 'init-ui)
+(require 'init-keybindings)
+(require 'init-interaction)
+(require 'init-org)
+(provide 'init)
