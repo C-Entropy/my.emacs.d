@@ -26,9 +26,7 @@
    '("c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" default))
  '(highlight-parentheses-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
  '(package-selected-packages
-   '(posframe pyim slime-repl-ansi-color yasnippet-snippets yaml-mode window-numbering web-mode use-package undo-tree solarized-theme smartparens slime-company session scratch popwin ox-gfm nyan-mode nginx-mode magit json-mode iedit hungry-delete highlight-parentheses helm-ag gnu-elpa-keyring-update flycheck fira-code-mode expand-region exec-path-from-shell counsel common-lisp-snippets auto-yasnippet))
- '(pyim-dicts
-   '((:name "bigDict" :file "/home/null/.emacs.d/init/pyim-bigdict.pyim.gz"))))
+   '(pyim posframe slime-repl-ansi-color yasnippet-snippets yaml-mode window-numbering web-mode use-package undo-tree solarized-theme smartparens slime-company session scratch popwin ox-gfm nyan-mode nginx-mode magit json-mode iedit hungry-delete highlight-parentheses helm-ag gnu-elpa-keyring-update flycheck fira-code-mode expand-region exec-path-from-shell counsel common-lisp-snippets auto-yasnippet)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
